@@ -1,14 +1,13 @@
 import React from "react";
-import Opener from "./components/landingPage/opener";
 import ProductAndServices from "./components/landingPage/productAndServices";
 import ContactUs from "./components/landingPage/contactus";
 
-export function HeroHeadline() {
+function HeroHeadline() {
   const services = [
-    { title: "Private ChatGPT for Your Company", icon: "🧠" },
-    { title: "Custom AI Agents for Unique Use Cases", icon: "🤖" },
-    { title: "Automated Data Collection Systems", icon: "⚙️" },
-    { title: "Crypto Analyst Bots", icon: "📈" },
+    { title: "AI Strategy", icon: "🧠" },
+    { title: "Machine Learning Development", icon: "🤖" },
+    { title: "Data Science & Analytics", icon: "⚙️" },
+    { title: "AI-powered Automation", icon: "📈" },
   ];
 
   return (
@@ -16,16 +15,15 @@ export function HeroHeadline() {
       <div className="max-w-6xl mx-auto text-center">
         {/* Heading */}
         <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-          Build Private AI Infrastructure for Your Business
+          AI Consulting for Your Business
         </h1>
 
         {/* Subheading */}
         <p className="text-lg md:text-xl text-gray-400 mb-6 max-w-3xl mx-auto">
-          We build custom AI solutions — from intelligent chatbots to fully abstracted LLM systems —
-          tailored for your organization. Everything is deployable on your infrastructure with no third-party dependency.
+          We help you leverage the power of AI to solve complex business problems and drive growth.
         </p>
         <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-4xl mx-auto">
-          Our services cover AI agents, bots, LLM integration, automation systems, Web3 dApps, and DevOps
+          Our services cover AI strategy, machine learning development, data science & analytics, and AI-powered automation
           — helping you scale faster, smarter, and with full control.
         </p>
 
